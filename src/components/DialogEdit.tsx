@@ -46,7 +46,10 @@ const DialogEdit: React.FC<Props> = ({
           >
             Ajouter
           </button>
-          <button className="btn btn-primary block sm:hidden">
+          <button
+            className="btn btn-primary block sm:hidden"
+            onClick={updateTodo}
+          >
             <Plus className="w-5 h-5" />
           </button>
         </div>
